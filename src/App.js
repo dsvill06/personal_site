@@ -1,15 +1,19 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import About from "./components/About"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import {Home} from "./pages/Home.js";
+import Footer from "./components/Footer.js"
 
 function App() {
   return (
     <div className="fontLink">
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <About></About>
+      <Router>
+        <Navbar></Navbar>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+        <Footer></Footer>
+      </Router>
     </div>
   );
 }

@@ -20,6 +20,9 @@ code {
 
 @layer components{
   .hoverButton{
-    @apply -m-1.5 p-1.5 transition-all duration-300 hover:text-orange-500 text-white   sm:-m-3 sm:p-3
+    @apply -m-1.5 p-1.5 transition-all duration-200 hover:text-orange-500 text-white   sm:-m-3 sm:p-3
+  }
+  .text{
+    @apply text-stone-300
   }
 }
