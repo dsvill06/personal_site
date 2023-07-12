@@ -21,7 +21,7 @@ export default function Navbar() {
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
         const sectionTop = section.offsetTop;
-        if (scrollPosition >= sectionTop - 200) {
+        if (scrollPosition >= sectionTop - 500) {
           currentSectionId = section.id;
           break;
         }
@@ -37,6 +37,14 @@ export default function Navbar() {
   const handleNavLinkClick = (sectionId) => {
     setCurrentSection(sectionId);
     scroll.scrollTo(sectionId, {
+      smooth: true,
+      duration: 500,
+      offset: -70,
+    });
+  };
+  const handleDisclosureButtonClick = (sectionId) => {
+    setCurrentSection(sectionId);
+    scroller.scrollTo(sectionId, {
       smooth: true,
       duration: 500,
       offset: -70,
@@ -101,12 +109,12 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+          <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
-                  as="a"
-                  href= {`#${item.href}`}
+                  as="button"
+                  type="button"
                   className={classNames(
                     item.href === currentSection
                       ? "bg-gray-900 text-white"
@@ -114,7 +122,7 @@ export default function Navbar() {
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
                   aria-current={item.href === currentSection ? "page" : undefined}
-                  onClick={() => handleNavLinkClick(item.href)}
+                  onClick={() => handleDisclosureButtonClick(item.href)}
                 >
                   {item.name}
                 </Disclosure.Button>

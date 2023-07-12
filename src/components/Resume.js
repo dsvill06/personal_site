@@ -30,16 +30,11 @@ export default class Resume extends Component {
               <td className="text-left">
                 <h1 className="text-2xl pl-2 text-orange-500 pb-2">HomeCook</h1>
                 <hr className="w-3/4" />
-                <p className="text-sm md:text-xl sm:text-base text-left text leading-relaxed m-1 py-2">
-                  As a Front-End Intern, I actively contribute my expertise in
+                <p className="text-sm md:text-2xl sm:text-base text-left text leading-relaxed m-1 py-2">
+                  Worked as Front-End Intern, where I actively contributed my expertise in
                   technologies such as React.js and TailwindCSS to drive the
                   development of an innovative app for the dynamic startup,
-                  HomeCook. With a core focus on empowering food entrepreneurs,
-                  HomeCook utilizes this app to provide comprehensive resources
-                  and valuable information. By leveraging my skills and
-                  knowledge, I play a crucial role in creating an exceptional
-                  user experience, enabling seamless access to the wealth of
-                  resources and insights offered by HomeCook.
+                  HomeCook.
                 </p>
               </td>
             </tr>
@@ -52,11 +47,9 @@ export default class Resume extends Component {
               <td className="text-left">
                 <h1 className="text-2xl pl-2 text-orange-500 pb-2">PwC</h1>
                 <hr className="w-3/4" />
-                <p className="text-sm md:text-xl sm:text-base text-left text leading-relaxed m-1 py-2">
-                  During my externship with PwC under the Paragon One's
-                  Consulting Program partnered with CEOARE, I had the incredible
-                  opportunity to gain invaluable skills and a transformative
-                  experience. The program provided me with hands-on exposure to
+                <p className="text-sm md:text-2xl sm:text-base text-left text leading-relaxed m-1 py-2">
+                  Worked with PwC under the Paragon One's
+                  Consulting Program partnered with CEOARE, I got hands-on exposure to
                   the dynamic world of consulting and allowed me to work closely
                   with industry experts, senior consultants, and talented
                   professionals from PwC.
@@ -75,20 +68,16 @@ export default class Resume extends Component {
                   className="text-2xl text-left text-orange-500 pl-2 pb-2"
                   style={{ wordBreak: "break-all" }}
                 >
-                  LegionellaDossier
+                  FarCloser Travel
                 </h1>
                 <hr className="w-3/4" />
-                <p className="text-sm md:text-xl sm:text-base text-left text leading-relaxed m-1 py-2">
-                  I have had the opportunity to work on a significant HubSpot
+                <p className="text-sm md:text-2xl sm:text-base text-left text leading-relaxed m-1 py-2">
+                  Worked on a significant HubSpot
                   project involving the transfer, merging, and editing of over
                   1000 company records. In this project, I utilized my expertise
                   in data management and cleaning techniques to ensure the
                   security and accuracy of the data within the required time
-                  frame. To begin, I employed advanced Excel functionalities to
-                  streamline the data transfer process. This involved developing
-                  robust formulas, using data validation techniques, and
-                  implementing automated workflows to ensure efficient data
-                  handling.
+                  frame.
                 </p>
               </td>
             </tr>
@@ -102,19 +91,14 @@ export default class Resume extends Component {
               <td className="text-centers">
                 <h1 className="text-2xl text-left text-orange-500 pl-2 pb-2">SignalX</h1>
                 <hr className="w-3/4" />
-                <p className="text-sm md:text-xl sm:text-base text-left text leading-relaxed m-1 py-2">
-                  During my internship, I had the opportunity to actively
-                  contribute to an entrepreneurial venture specializing in the
+                <p className="text-sm md:text-2xl sm:text-base text-left text leading-relaxed m-1 py-2">
+                  Actively
+                  contributed to an entrepreneurial venture specializing in the
                   development of websites and mobile applications. Working
                   closely with a team of talented developers and designers, I
                   gained valuable insights into the functionality of such a
                   venture. Throughout my internship, I focused on enhancing my
-                  communication and product management skills. Collaborating
-                  with the team, I effectively communicated project
-                  requirements, identified client needs, and translated them
-                  into actionable tasks. This experience allowed me to develop a
-                  keen understanding of the importance of effective
-                  communication in delivering successful projects.
+                  communication and product management skills. 
                 </p>
               </td>
             </tr>
