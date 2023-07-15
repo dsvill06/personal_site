@@ -5,10 +5,10 @@ export default class Resume extends Component {
     return (
       <section
         id="Resume"
-        className="w-screen h-auto flex flex-col items-center"
+        className="w-screen h-auto flex flex-col items-center md:p-16"
         style={{ background: "#052630" }}
       >
-        <div className="mt-20 text-center">
+        <div className="mt-20 text-center ">
           <h3 className="text-orange-500 text-3xl">Resume</h3>
           <h1 className="text-white text-5xl">More About my Credentials</h1>
         </div>
@@ -18,7 +18,7 @@ export default class Resume extends Component {
           </h2>
           <hr className="w-1/2 mx-auto mb-10" />
         </div>
-        <table className="grid w-full mx-4 sm:mx-20 mb-20">
+        <table className="grid w-full mx-4 sm:mx-20 md:mb-8">
           <tbody className="align-middle p-2">
             <tr className="grid grid-cols-2 gap-10 w-full text-center">
               <td className="flex flex-col text border-r-2 justify-center">
@@ -30,7 +30,7 @@ export default class Resume extends Component {
               <td className="text-left">
                 <h1 className="text-2xl pl-2 text-orange-500 pb-2">HomeCook</h1>
                 <hr className="w-3/4" />
-                <p className="text-sm md:text-2xl sm:text-base text-left text leading-relaxed m-1 py-2">
+                <p className="text-sm md:text-xl sm:text-base text-left text leading-relaxed m-1 py-2">
                   Worked as Front-End Intern, where I actively contributed my expertise in
                   technologies such as React.js and TailwindCSS to drive the
                   development of an innovative app for the dynamic startup,
@@ -47,7 +47,7 @@ export default class Resume extends Component {
               <td className="text-left">
                 <h1 className="text-2xl pl-2 text-orange-500 pb-2">PwC</h1>
                 <hr className="w-3/4" />
-                <p className="text-sm md:text-2xl sm:text-base text-left text leading-relaxed m-1 py-2">
+                <p className="text-sm md:text-xl sm:text-base text-left text leading-relaxed m-1 py-2">
                   Worked with PwC under the Paragon One's
                   Consulting Program partnered with CEOARE, I got hands-on exposure to
                   the dynamic world of consulting and allowed me to work closely
@@ -60,7 +60,7 @@ export default class Resume extends Component {
               <td className="flex flex-col text border-r-2 justify-center">
                 <h1 className="text-3xl">
                   Intern
-                  <h2 className="text-xl">June 2023-Present</h2>
+                  <h2 className="text-xl">May 2023-June 2023</h2>
                 </h1>
               </td>
               <td className="text-centers sm:text-left">
@@ -71,7 +71,7 @@ export default class Resume extends Component {
                   FarCloser Travel
                 </h1>
                 <hr className="w-3/4" />
-                <p className="text-sm md:text-2xl sm:text-base text-left text leading-relaxed m-1 py-2">
+                <p className="text-sm md:text-xl sm:text-base text-left text leading-relaxed m-1 py-2">
                   Worked on a significant HubSpot
                   project involving the transfer, merging, and editing of over
                   1000 company records. In this project, I utilized my expertise
@@ -85,13 +85,13 @@ export default class Resume extends Component {
               <td className="flex flex-col text border-r-2 justify-center">
                 <h1 className="text-3xl">
                   Product Management Intern
-                  <h2 className="text-xl">June 2023-Present</h2>
+                  <h2 className="text-xl">January 2022-August 2022</h2>
                 </h1>
               </td>
               <td className="text-centers">
                 <h1 className="text-2xl text-left text-orange-500 pl-2 pb-2">SignalX</h1>
                 <hr className="w-3/4" />
-                <p className="text-sm md:text-2xl sm:text-base text-left text leading-relaxed m-1 py-2">
+                <p className="text-sm md:text-xl sm:text-base text-left text leading-relaxed m-1 py-2">
                   Actively
                   contributed to an entrepreneurial venture specializing in the
                   development of websites and mobile applications. Working

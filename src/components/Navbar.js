@@ -21,7 +21,7 @@ export default function Navbar() {
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
         const sectionTop = section.offsetTop;
-        if (scrollPosition >= sectionTop - 500) {
+        if (scrollPosition >= sectionTop - 200) {
           currentSectionId = section.id;
           break;
         }

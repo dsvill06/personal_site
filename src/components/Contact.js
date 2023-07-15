@@ -3,9 +3,8 @@ import React, { Component } from "react";
 import {
   faGithub,
   faLinkedin,
-  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import EmailForm from "../molecules/email";
+import EmailForm from "../molecules/Email";
 
 export default class Contact extends Component {
   render() {
