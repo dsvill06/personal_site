@@ -4,7 +4,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import EmailForm from "../molecules/Email";
+import EmailForm from "./molecules/Email";
 
 export default class Contact extends Component {
   render() {
