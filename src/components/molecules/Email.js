@@ -13,9 +13,9 @@ export default function EmailForm() {
     };
 
     try {
-      const response = await axios.post("http://localhost:3002/send", emailData);
+      const response = await axios.post("https://819ov9iuk5.execute-api.us-east-1.amazonaws.com/dev/send", emailData);
       // Handle the response
-      console.log(response.data);
+      console.log(response);
     } catch (error) {
       // Handle the error
       console.log(`Error was found: ${error}`);
