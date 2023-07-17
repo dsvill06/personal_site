@@ -18,7 +18,7 @@ const projects = () => {
       name: "Personal Site",
       link: "https://davidvillavicencio.netlify.app",
       description:
-        "A personal portfolio website I made to showcase my skills and resume using React.js and hosted on Netlify.",
+        "A personal portfolio website I made to showcase my skills and resume using React.js hosted on Netlify, Node.js for mailing backend hosted on AWS lambda.",
       image: portfolioImage,
     },
     {
