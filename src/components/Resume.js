@@ -84,7 +84,7 @@ export default class Resume extends Component {
             <tr className="grid grid-cols-2 gap-10 w-full text-center">
               <td className="flex flex-col text border-r-2 justify-center">
                 <h1 className="text-3xl">
-                  Product Management Intern
+                  Product Service Intern
                   <h2 className="text-xl">January 2022-August 2022</h2>
                 </h1>
               </td>
@@ -113,7 +113,7 @@ export default class Resume extends Component {
         <table className="grid w-full mx-4 sm:mx-20 mb-20">
           <tbody className="align-middle p-2">
             <tr className="grid grid-cols-2 gap-10 w-full text-center">
-              <td className="flex flex-col text border-r-2 justify-center">
+              <td className="flex flex-col text border-r-2 justify-center pr-2">
                 <h1 className="text-3xl">
                   Bachelor Degree in Computer Science 
                 <h2 className="text-xl">Applied Science and Engineering Minor | Entrepreneurship Minor</h2>
