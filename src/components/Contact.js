@@ -14,7 +14,7 @@ export default class Contact extends Component {
           <h3 className="text-orange-500 text-3xl pb-1">Contact</h3>
           <h1 className="text-white text-5xl">Connect With Me</h1>
           <h2 className="text-stone-300 text-xl p-1 mt-3">
-            I'd Love to expand my network
+            I'd love to expand my network
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full text-center md:my-10">
