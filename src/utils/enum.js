@@ -40,7 +40,7 @@ const projects = () => {
       name: "Fraternity Website",
       link: "https://unclul.netlify.app/",
       description:
-      "My fraternity website for La Unidad Latina, Lambda Upsilon Lambda Fraternity Inc.that showcases the work we do on campus at the University of North Carolina at Chapel Hill.",
+      "My fraternity website for La Unidad Latina, Lambda Upsilon Lambda Fraternity Inc. that showcases the work we do on campus at the University of North Carolina at Chapel Hill.",
       image: LUL,
     },
   ];
