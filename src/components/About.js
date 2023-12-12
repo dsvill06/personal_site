@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import David from "../images/David.png"
 
 const languages = { Javascript: 0.6, Java: 0.3, Python: 0.3, Sql: 0.25 };
 const frameworks = {
@@ -32,7 +33,7 @@ export class About extends Component {
             <img
               class="w-80 rounded-full shadow-md border-orange-600 border-4"
               alt="David Villavicencio"
-              src="https://media.licdn.com/dms/image/D4E03AQGDILULa67LNg/profile-displayphoto-shrink_800_800/0/1682282309829?e=2147483647&v=beta&t=m9q1ZCw4aVLd2ErhnUpRezloaceO5iBUDKIw3Z1lvrM"
+              src={David}
             />
           </div>
           <div class="flex col-span-1 flex-col gap-5 text-left">
