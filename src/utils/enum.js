@@ -1,6 +1,7 @@
 import portfolioImage from "../images/Portfolio.png";
 import homeCook from "../images/HomeCook.png";
 import colorBilities from "../images/Colorbilities.png"
+import LUL from "../images/LUL.png"
 
 const Navigation = () => {
   return [
@@ -34,6 +35,13 @@ const projects = () => {
       description:
       "A page I made with a team for a club project that showcases the difference between a color the user picked and what it would be based on the colorblindness chosen.",
       image: colorBilities,
+    },
+    {
+      name: "Fraternity Website",
+      link: "https://unclul.netlify.app/",
+      description:
+      "My fraternity website for La Unidad Latina, Lambda Upsilon Lambda Fraternity Inc.that showcases the work we do on campus at the University of North Carolina at Chapel Hill.",
+      image: LUL,
     },
   ];
 };
